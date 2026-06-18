@@ -17,7 +17,7 @@ langchain-google-genai==1.0.6
 
 # ── Embeddings & Vector DB ────────────────────────────────────
 sentence-transformers==3.0.1
-faiss-cpu>=1.7.4
+faiss-cpu>=1.12.0
 chromadb==0.5.3
 
 # ── Document Processing ───────────────────────────────────────
@@ -27,6 +27,7 @@ python-docx==1.1.2
 
 # ── NLP ───────────────────────────────────────────────────────
 spacy==3.7.5
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
 nltk==3.8.1
 
 # ── Database ──────────────────────────────────────────────────
@@ -50,7 +51,3 @@ numpy==1.26.4
 streamlit==1.36.0
 plotly==5.22.0
 pandas==2.2.2
-
-# ── Testing ───────────────────────────────────────────────────
-pytest==8.2.2
-pytest-asyncio==0.23.7
